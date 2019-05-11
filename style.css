@@ -1,0 +1,160 @@
+/*chess board*/
+
+/** {border: solid red 1px;}
+*/
+
+body{
+	margin: 0;
+}
+
+.board{
+	border: 20px solid brown;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	position: relative;
+	color: #000;
+	margin: auto;
+	max-width: 100%;
+	min-height: 100vh;
+
+}
+
+
+
+/*roooooooooow*/
+
+
+
+.row{
+	position: absolute;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.row_1{
+	top: 0;
+	left: 0;
+}
+
+.row_2{
+	top: 12.5%;
+	left: 0;
+}
+
+.row_3{
+	top: calc(12.5% + 12.5%);
+	left: 0;
+}
+
+.row_4{
+	top: calc(12.5% + 12.5% + 12.5%);
+	left: 0;
+}
+
+.row_5{
+	top: calc(12.5% + 12.5% + 12.5% + 12.5%);
+	left: 0;
+}
+
+.row_6{
+	top: calc(12.5% + 12.5% + 12.5% + 12.5% + 12.5%);
+	left: 0;
+}
+
+.row_7{
+	top: calc(12.5% + 12.5% + 12.5% + 12.5% + 12.5% + 12.5%);
+	left: 0;
+}
+
+.row_8{
+	top: calc(12.5% + 12.5% + 12.5% + 12.5% + 12.5% + 12.5% + 12.5%);
+	left: 0;
+}
+
+
+/*ceeeeelllll*/
+
+.cell{
+	height:12.5%;
+	width:12.5%;
+	position: absolute;
+}
+
+.row_1 .cell:nth-child(odd){
+	background-color: #000;
+}
+.row_3 .cell:nth-child(odd){
+	background-color: #000;
+}
+.row_5 .cell:nth-child(odd){
+	background-color: #000;
+}
+.row_7 .cell:nth-child(odd){
+	background-color: #000;
+}
+
+.row_2 .cell:nth-child(even){
+	background-color: #000;
+}
+.row_4 .cell:nth-child(even){
+	background-color: #000;
+}
+.row_6 .cell:nth-child(even){
+	background-color: #000;
+}
+.row_8 .cell:nth-child(even){
+	background-color: #000;
+}
+
+
+
+
+
+
+
+.cell_1{
+	left: 0;
+}
+
+.cell_2{
+	left: 12.5%;
+}
+
+.cell_3{
+	left: calc(12.5% + 12.5%);
+}
+
+.cell_4{
+	left: calc(12.5% + 12.5% + 12.5%);
+}
+
+.cell_5{
+	left: calc(12.5% + 12.5% + 12.5% + 12.5%);
+}
+
+.cell_6{
+	left: calc(12.5% + 12.5% + 12.5% + 12.5% + 12.5%);
+}
+
+.cell_7{
+	left: calc(12.5% + 12.5% + 12.5% + 12.5% + 12.5% + 12.5%);
+}
+
+.cell_8{
+	left: calc(12.5% + 12.5% + 12.5% + 12.5% + 12.5% + 12.5% + 12.5%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
