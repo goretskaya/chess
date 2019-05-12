@@ -5,6 +5,9 @@
 
 body{
 	margin: 0;
+	min-height: 100vh;
+	min-width: 100vh;
+
 }
 
 .board{
@@ -14,10 +17,9 @@ body{
 	        box-sizing: border-box;
 	position: relative;
 	color: #000;
-	margin: auto;
-	max-width: 100%;
-	min-height: 100vh;
-
+	margin: 5% auto;
+	min-height: 80vh;
+	width: 80vh;
 }
 
 
